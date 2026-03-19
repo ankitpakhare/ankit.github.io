@@ -1,0 +1,773 @@
+ .hero {
+     background-image: url(../images/banner-bg.jpg );
+     background-position: center center;
+     background-size: 250% 250%;
+     height: 90vh;
+     width: 100%;
+
+     z-index: -1;
+     margin-top: -8%;
+     padding-top: 22%;
+     color: white;
+     margin-bottom: 50px;
+
+ }
+
+ .hero1 h1 {
+     font-family: "Playfair Display", serif;
+
+     text-align: center;
+     margin-bottom: 20px;
+
+     padding: 12px;
+     font-size: 62px;
+ }
+
+
+ .sec2 img {
+     width: 105%;
+     height: 50vh;
+     margin-left: -4%;
+ }
+
+ .sec2 p {
+     width: 95%;
+     /* text-align: justify; */
+     margin-left: 10px;
+ }
+
+ .sec2 h2 {
+     font-family: "Playfair Display", serif;
+     margin-top: 5%;
+     font-size: 40px;
+
+     margin-left: 10px;
+ }
+
+ /* section 3 */
+
+ .food img {
+     height: 120vh;
+     margin-top: 35%;
+     background-repeat: no-repeat;
+     margin-left: 74%;
+     /* overflow: hidden; */
+     position: relative;
+     right: 0;
+
+     display: none;
+
+
+ }
+
+ /* *{
+    border: 1px solid;
+} */
+
+
+ .food-one {
+     width: 85%;
+     margin-top: 25%;
+     margin-left: 5%;
+
+ }
+
+ .food-one h2 {
+     font-family: "Playfair Display", serif;
+     margin-top: 5%;
+     font-size: 45px;
+ }
+
+ .food-card {
+     width: 110%;
+     /* margin-left: 0PX; */
+     padding-left: 20px;
+ }
+
+ .card-body span {
+     color: #FFB606;
+ }
+
+ .card-body h5 {
+     font-size: 18px;
+ }
+
+ .card-body span:hover {
+     color: black;
+ }
+
+ .card-body:hover {
+     background-color: #FFB606;
+     color: black;
+ }
+
+ .card-body {
+     background: rgb(246, 254, 254);
+ }
+
+ .car img:hover {
+     transform: scale(1.2);
+     transition-delay: .2s;
+ }
+
+ .im {
+     overflow: hidden;
+ }
+
+ .car {
+     width: 90%;
+ }
+ /*  */
+
+ .mid {
+     padding-top: 50%;
+     padding-left: 5%;
+     font-family: "Playfair Display", serif;
+ }
+
+ .mid button {
+     padding: 10px 20px;
+     font-weight: bold;
+     background-color: #FFB606;
+     color: black;
+
+ }
+
+ .mid button:hover {
+     cursor: pointer;
+     background-color: transparent;
+     border: 2px solid #FFB606;
+     color: #FFB606;
+ }
+
+ .mid h1 {
+     font-size: 46px;
+ }
+
+ .mid p {
+     font-size: 26px;
+     font-family: "Playfair Display", serif;
+ }
+
+ .mid-img {
+     background-image: url(../images/reservation-bg.jpg);
+     height: 95vh;
+     margin-top: 40%;
+     background-size: 100% 100%;
+     margin-bottom: 40%;
+ }
+/*  */
+ .deshes {
+         font-family: "Playfair Display", serif;
+     }
+
+     .desh {font-family: "Playfair Display", serif;
+        margin-bottom: 50px;
+         
+     }
+     .desh img{
+        height: 50vh;
+        width: 100%;
+        margin-left: 20px;
+     }
+     .line{
+        width: 40%;
+         border: 1px solid black;
+         position: relative;
+         top:-8%;
+         left: 20%;
+        
+
+     }
+     .text{
+        margin-left: 10px;
+        width: 100%;
+        margin-top: 20px;
+     }
+
+     /* * {
+     border: 1px solid;
+
+ } */
+
+ /* sectoon six */
+     .six {
+  position: relative;
+  height: 80vh;
+  background: url('../images/testimonial-bg.jpg')  center center/cover;
+  margin-top: 10%;
+}
+
+.six .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7); 
+}
+
+.six .content {
+  z-index: 2;
+}
+.content p {
+    width: 90%;
+    padding-left: 20px;
+
+}
+
+/* section7  */
+     .update-one {
+         width: 80%;
+         margin-left: 10%;
+         margin-top: 5%;
+         margin-bottom: 40px;
+     }
+
+     .update-one h2 {
+         font-family: "Playfair Display", serif;
+         margin-top: 25%;
+         font-size: 40px;
+     }
+
+     .update-card {
+         width: 110%;
+         padding-left: 0px;
+         
+     }
+
+     .min {
+         overflow: hidden;
+     }
+
+     .wan {
+         width: 100%;
+        
+     }
+     .wan:hover{
+        background-color: white; 
+         transform: translateY(5px);  
+     }
+     .wan h5{
+        font-family: "Playfair Display", serif;
+     }
+    .list{
+background-color: rgb(253, 253, 253);
+ }
+ .list:hover{
+    background: white;
+    box-shadow: 5px 5px 50px 5px  gray;
+    transition-delay: 0.2s;
+    
+}
+
+/* ========= section 8  ============= */
+.booking-section {
+  height: 80vh;
+  margin-top: 40%;
+ background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+              url('../images/table-bg.jpg') no-repeat center center/cover;
+}
+.sec-8 {
+    padding-left:10% ;
+    width: 100%;
+}
+
+.sec-8 button{
+ margin-left: -30%;
+}
+.booking-section h2 {
+  font-weight: bold;
+}
+
+.booking-section input::placeholder {
+  color: #ccc;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+}
+
+.btn-warning {
+  font-weight: bold;
+ 
+}
+
+.your h2{
+    margin-top: -80px;
+}
+
+/* footer */
+footer{
+background-color:#121836;
+height: 150vh;
+color: gray;
+margin-top: 0px;
+
+}
+.foot p {
+    width: 90%;
+    margin-left: 20px;
+}
+
+.copy{
+    background-color: #060711;
+    color: white;
+    margin-top: -30px;
+    padding-top: 20px;
+}
+.copy-icon{
+   position: relative;
+   left: 50px;
+   top: -20px;
+}
+ /* +++++++++++===================++++++++++++++ */
+ @media only screen and (min-width: 768px) {
+     .hero {
+         background-image: url(../images/banner-bg.jpg );
+         background-position: center top;
+         background-size: 100% 100%;
+         height: 100vh;
+         width: 100%;
+
+         margin-top: -15%;
+
+     }
+
+
+     .sec2 img {
+         width: 90%;
+         height: 50vh;
+         margin-left: 10%;
+         margin-top: 30%;
+
+     }
+
+     .sec2 p {
+         width: 100%;
+         font-size: 15px;
+     }
+
+     .sec2 h2 {
+         margin-top: 22%;
+     }
+
+
+     /* section 3 */
+
+     .food img {
+         display: none;
+     }
+
+     .food-one {
+         width: 50%;
+         margin-left: 13%;
+         margin-top: 10%;
+         margin-bottom: 20px;
+     }
+
+     .food-one h2 {
+         font-family: "Playfair Display", serif;
+         margin-top: 5%;
+         font-size: 40px;
+     }
+
+     .food-card {
+         width: 100%;
+         padding-left: 0px;
+         margin-bottom: -20%;
+     }
+
+     .card-body span {
+         color: #FFB606;
+     }
+
+     .card-body span:hover {
+         color: black;
+     }
+
+     .card-body:hover {
+         background-color: #FFB606;
+         color: black;
+     }
+
+     .card-body {
+         background: rgb(246, 254, 254);
+         padding-top: -50px;
+     }
+
+     .card-body h5 {
+         font-size: 18px;
+         width: 60%;
+
+     }
+
+     .card-body span {
+         position: relative;
+         left: 50%;
+         top: -40px;
+     }
+
+
+     .car {
+         width: 100%;
+     }
+
+
+
+     .mid p {
+         font-style: italic;
+         font-family: "Playfair Display", serif;
+     }
+
+     .mid h1 {
+         margin-top: -30%;
+     }
+
+     .mid-img {
+         background-image: url(../images/reservation-bg.jpg);
+         height: 70vh;
+         background-size: 105% 105%;
+         background-position: right auto;
+         margin-top: 40%;
+         margin-bottom: 60%;
+     }
+/* sectoon six */
+     .six {
+  position: relative;
+  height: 70vh;
+  background: url('../images/testimonial-bg.jpg')  center center/cover;
+  margin-top: 10%;
+}
+
+.six .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6); 
+}
+
+.six .content {
+  z-index: 2;
+}
+ }
+
+
+ /* ======================================================== */
+ @media only screen and (min-width: 992px) {
+     .hero {
+         background-image: url(../images/banner-bg.jpg );
+         background-position: center top;
+         background-size: 100% 100%;
+         height: 120vh;
+         width: 100%;
+
+         z-index: -1;
+         margin-top: -8%;
+
+         padding-top: 22%;
+         color: white;
+         margin-bottom: 50px;
+
+     }
+
+     .hero span {
+         color: #FFB606;
+     }
+
+     .container {
+         width: 50%;
+         margin-top: 20px;
+         height: 13vh;
+         border-radius: 5px;
+
+     }
+
+     .dropdown {
+         border: none;
+     }
+
+     .dropdown li a:hover {
+         color: #FFB606;
+     }
+
+     .sec2 img {
+         width: 105%;
+         height: 90vh;
+         margin-left: -4%;
+         
+     }
+
+     .sec2 p {
+         width: 60%;
+         font-size: 15px;
+     }
+
+     .sec2 h2 {
+         font-family: "Playfair Display", serif;
+         margin-top: 22%;
+
+
+     }
+
+
+     /* section 3 */
+
+     .food img {
+         height: 120vh;
+         margin-top: 50%;
+         background-repeat: no-repeat;
+         margin-left: 70%;
+         /* overflow: hidden; */
+         position: relative;
+         right: 0;
+         width: 30%;
+         display: block;
+
+
+     }
+
+
+
+
+     .food-one {
+         width: 30%;
+
+
+         margin-left: 13%;
+         margin-top: -55%;
+         margin-bottom: 40px;
+     }
+
+     .food-one h2 {
+         font-family: "Playfair Display", serif;
+         margin-top: 25%;
+         font-size: 40px;
+     }
+
+     .food-card {
+         width: 90%;
+         padding-left: 50px;
+     }
+
+     .card-body span {
+         color: #FFB606;
+         left: 80%;
+     }
+
+     .card-body span:hover {
+         color: black;
+     }
+
+     .card-body:hover {
+         background-color: #FFB606;
+         color: black;
+     }
+
+     .card-body {
+         background: rgb(246, 254, 254);
+
+     }
+
+     .car img:hover {
+         transform: scale(1.2);
+         transition-delay: .2s;
+     }
+
+     .im {
+         overflow: hidden;
+     }
+
+     .car {
+         width: 90%;
+     }
+
+     .mid h1 {
+         margin-top: -45%;
+         /* padding-top: -100%?; */
+     }
+
+     .mid {
+         font-family: "Playfair Display", serif;
+     }
+
+     .mid button {
+         padding: 10px 20px;
+         font-weight: bold;
+         background-color: #FFB606;
+         color: black;
+
+     }
+
+     .mid button:hover {
+         cursor: pointer;
+         background-color: transparent;
+         border: 2px solid #FFB606;
+         color: #FFB606;
+     }
+
+     .mid p {
+         font-style: italic;
+         font-family: "Playfair Display", serif;
+     }
+
+     .mid-img {
+         background-image: url(../images/reservation-bg.jpg);
+         height: 60vh;
+         background-size: 105% 105%;
+         background-position: right auto;
+         margin-top: 60%;
+         margin-bottom: 10%;
+     }
+
+     /* section 5  start */
+     .deshes {
+         font-family: "Playfair Display", serif;
+     }
+
+     .desh {font-family: "Playfair Display", serif;
+        margin-bottom: 50px;
+         
+     }
+     .desh img{
+        height: 60vh;
+        top: 20px;
+     }
+     .line{
+        width: 40%;
+         border: 1px solid black;
+         position: relative;
+         top:-10%;
+        
+         left: 15%;
+        
+
+     }
+     .text{
+        margin-left: 80px;
+        width: 60%;
+        margin-top: 20px;
+     }
+
+     /* section - 6  */
+     /*  */
+     .six {
+  position: relative;
+  height: 70vh;
+  background: url('../images/testimonial-bg.jpg')  center center/cover;
+  margin-top: 65%;
+}
+
+.six .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6); 
+}
+
+.six .content {
+  z-index: 2;
+}
+
+
+/* section7  */
+     .update-one {
+         width: 30%;
+         margin-left: 10%;
+         margin-top: 5%;
+         margin-bottom: 40px;
+     }
+
+     .update-one h2 {
+         font-family: "Playfair Display", serif;
+         margin-top: 25%;
+         font-size: 40px;
+     }
+
+     .update-card {
+         width: 90%;
+         padding-left: 50px;
+         
+     }
+
+     .min {
+         overflow: hidden;
+     }
+
+     .wan {
+         width: 100%;
+        
+     }
+     .wan:hover{
+        background-color: white; 
+         transform: translateY(5px);  
+     }
+     .wan h5{
+        font-family: "Playfair Display", serif;
+     }
+    .list{
+background-color: rgb(253, 253, 253);
+ }
+ .list:hover{
+    background: white;
+    box-shadow: 5px 5px 50px 5px  gray;
+    transition-delay: 0.2s;
+    
+}
+
+/* =============================== */
+.booking-section {
+  height: 80vh;
+  margin-top: 40%;
+ background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+              url('../images/table-bg.jpg') no-repeat center center/cover;
+}
+
+.booking-section h2 {
+  font-weight: bold;
+}
+
+.booking-section input::placeholder {
+  color: #ccc;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+  /* padding: 0.75rem; */
+}
+
+.btn-warning {
+  font-weight: bold;
+}
+
+.your h2{
+    margin-top: -80px;
+}
+
+/* footer */
+footer{
+background-color:#121836;
+height: 80vh;
+color: gray;
+margin-top: -20px;
+}
+
+.logo {
+    margin-bottom: 50px;
+}
+.foot p{
+    line-height: 30px;
+}
+.pow h4{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+
+ }
