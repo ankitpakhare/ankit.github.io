@@ -1,0 +1,424 @@
+
+.picture{
+        height:200vh;
+        position: relative;
+        top: 50;
+       }
+       .nav-img{
+        height: 30px;
+
+       }
+
+       .active img{
+            height:80vh;
+            object-fit: fill;
+            width: 90%;
+       }
+ 
+ .serve-icon{
+       font-size: 52px;
+ }
+/* *{
+      border: 1px solid;
+} */
+
+ .Us{
+      margin-top: 100px;
+      width: 100%;
+       margin-left: 20px;
+     
+}
+.start1{
+      position: relative;
+      top: -90px;
+    
+      width: 50%;
+
+     
+}
+
+.starth{
+      opacity: 0.7;
+}
+.start img{
+           position:relative ;
+           left: 1%; 
+           top: -5%;
+           filter: brightness(95%);
+           width: 90%;
+      }
+.us-icon{
+      margin-left: -55px;
+      
+      font-size: 36px;
+}
+
+/* service section */
+
+
+.service-item img{
+      position: relative;
+      top: 25%;
+}
+
+.service-sq-2{
+      display: none;
+}
+
+.service-sq-3{
+      display: none;
+}
+
+/*  */
+.plant img{
+      width: 300px;
+     
+}
+
+
+/* testimonial */
+.conse{
+      margin-top: 17%;
+      font-family: open system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.conse img{
+      height: 100px;
+      width: 100px;
+}
+.conse h3{ font-family: Marcellus, sans-serif;
+
+margin-bottom: 20px;}
+
+.conse h5{
+      font-weight: 400;
+}
+
+.one{
+      font-family: Marcellus, sans-serif;
+      margin-top: 50px;
+}
+
+
+/* recent */
+.recent{ width: 100%;
+      margin-top: 40px;
+overflow: hidden;
+padding-bottom: 50px;
+
+
+}
+
+.recent img{
+     border: white;
+    transform: scale3d(1.1);
+      width: 100%;
+}
+.hov{
+     
+      padding-bottom:0px;
+}
+.hov:hover{
+      color:green;
+}
+.tag{
+      position: relative;
+      top: -20px;
+      left: 202px;
+      width: 40%;
+      text-align: center;
+}
+
+
+/* footer */
+.social-links a{
+      color: green;
+background: rgb(18, 18, 18);}
+      
+
+.social-links a:hover{
+      background-color: green;
+      color: white;
+      
+
+}
+
+.footer-links li{
+      list-style: none;
+    margin-left: -30px;
+    line-height: 30px;
+}
+
+
+.footer-links a{
+      text-decoration: none;
+      color: white;
+
+}
+.footer{
+      height: 60vh;
+      padding-top: 25;
+}
+.credits a{
+      color: green;
+
+}
+       
+       /* ============== tablet view ===================== */
+@media only screen and (min-width:768px){
+    
+     .Us{
+      margin-top: 100px;
+      width: 90%;
+      margin-left: 20px;
+     
+}
+.start1{
+      position: relative;
+      top: -95px;
+      left: 70px;
+
+}
+
+.us-icon{
+      margin-left: -80px;
+      padding-left: 20px;
+}
+
+/*  */
+
+/* service section */
+.service-sq-2{
+      display: none;
+}
+.service-sq-1{
+     width: 800px;
+     height: 110vh;
+     
+
+}
+.service-item img{
+      position: relative;
+      top: 5%;
+      height: 80vh;
+
+      width: 100%;
+      object-fit: fill;
+      left: 50px;
+}
+
+
+
+
+
+.service-sq-3{
+      display: none;
+}
+/* .service-item-contents a:hover{
+    display: inline;
+
+      transition-duration: 1s;
+} */
+
+.service-item:hover{
+      cursor: pointer;
+     
+     filter: brightness(70%);
+
+}
+
+.service-sq-1:hover{
+      transform: scale(1.1);
+     
+      
+}
+
+.service-sq-2:hover{
+      transform: scale(1.1);
+      
+      
+}
+
+.service-sq-3:hover{
+      transform: scale(1.1);
+      
+}
+.service-sq-2{
+      display: none;
+}
+
+.service-sq-3{
+      display: none;
+}
+.plant img{
+      width:100%;
+     height: 70vh;
+}
+}
+
+.one h3{
+      margin-top: 30%;
+}
+
+
+
+
+
+
+
+
+/* ============ desktop view================== */
+@media only screen and (min-width:992px){
+
+      .caro{
+            height: 90vh;
+      }
+      .caro img{
+         filter: brightness(70%);
+         height: 100vh;
+
+      }
+      .hero{
+            position: relative;
+            top: 20%;
+            
+           
+       }
+       .hero1{
+            font-size: 55px;
+       }
+       .hero13{
+            width: 95%;
+            font-size: 55px;
+       }
+       .herop{
+            width: 95%;
+            font-size: 20px;
+       }
+/* =================== */
+
+.Us{
+      margin-top: 100px;
+      height: 130vh;
+      width: 85%;
+      margin-left: 0px;
+}
+
+      .start img{
+           position:relative ;
+           left: 15%; 
+           top: -5%;
+
+           filter: brightness(95%);
+      }
+.us-icon{
+      margin-left: -60px;
+      
+      font-size: 36px;
+}
+.start1{
+    position: relative;
+    top: 50px;
+}
+
+.better{
+      position: relative;
+      left: 1%;
+object-fit: bottom left;
+}
+.better-p{
+      font-size: 17px;
+      width: 82%;
+     
+    
+      
+      
+}
+
+.service-sq-2{
+      display: block;
+}
+
+.service-sq-3{ display: block;
+
+}
+.service-item img{
+  
+      height: 50vh;
+
+}
+.life{
+   
+      padding-top: 5%;
+}
+.plant{
+      position: relative;
+      left: 1%;
+      top: 0%;
+}
+/*  */
+.service-item img{
+      position: relative;
+      top: 10%;
+}
+.plant img{
+      width: 600px;
+      position: relative;
+      left: -2%;
+      top:-5%
+      
+}
+
+
+.one h3{
+      margin-top: -5%;
+}
+
+
+/* recent */
+.recent{ width: 100%;
+      margin-top: 40px;
+      background: rgb(247, 247, 247);
+   
+
+}
+
+
+.recent img:hover {
+     border: white;
+       transform: scale(1.1);
+
+ overflow: hidden;
+      width: 100%;
+     
+}
+.hov:hover{
+      color:green;
+       
+}
+.tag{
+      position: relative;
+      top: -20px;
+      left: 60%;
+      width: 40%;
+      text-align: center;
+}
+
+
+
+.news{
+      padding-top: 90px;
+      padding-bottom: 80px;
+      
+}
+
+.to{
+      background: #f7f7f7;
+}
+
+
+
+
+
+
+      }
+
