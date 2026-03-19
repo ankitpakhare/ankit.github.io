@@ -1,0 +1,54 @@
+/* 
+    .navbar-brand {
+      font-weight: bold;
+      color: #28a745 !important;
+    }
+    
+
+    .nav-link.active {
+      color: #121212;
+    }
+
+    /* .btn-quote {
+      background-color: #28a745;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      gap: 5px;
+    } */
+
+    .btn-quote:hover {
+      background-color: #218838;
+    }
+    .ab{
+      position: absolute;
+    top: 10%;
+  align-items: start;
+    
+    transform: translate(0%, 20%)
+
+    }
+    .ab h5{
+      font-weight: bold;
+    }
+    .co{
+      width: 50%;
+    }
+    .a{
+      margin-left: -75%;
+    }
+ 
+    .icon{
+      border-radius: 50%;
+      font-size: 30px;
+     height: 50px;
+     width: 100px;
+    }
+@media only screen and (min-width:992px){
+.aa{
+    border: 1px solid;
+    height: 70px;
+justify-content: start;
+    opacity: 0.1;}
+}
